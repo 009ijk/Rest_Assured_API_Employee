@@ -1,0 +1,367 @@
+INFO	2022-07-24 14:08:08,959	0	RestEmployeeAPI	[main]	************Started getting All Employee details ******************
+INFO	2022-07-24 14:08:11,758	2799	RestEmployeeAPI	[main]	****check the containt type****
+INFO	2022-07-24 14:08:11,760	2801	RestEmployeeAPI	[main]	ContaintType is ==>application/json
+INFO	2022-07-24 14:08:11,768	2809	RestEmployeeAPI	[main]	***check the cookies***
+INFO	2022-07-24 14:08:11,770	2811	RestEmployeeAPI	[main]	**************Checking response Body*******************
+INFO	2022-07-24 14:08:11,799	2840	RestEmployeeAPI	[main]	response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2022-07-24 14:08:11,802	2843	RestEmployeeAPI	[main]	*******Check the response code*****
+INFO	2022-07-24 14:08:11,802	2843	RestEmployeeAPI	[main]	response code==>200
+INFO	2022-07-24 14:08:11,803	2844	RestEmployeeAPI	[main]	****Check the response time taken ****
+INFO	2022-07-24 14:08:11,804	2845	RestEmployeeAPI	[main]	response Time==> 1531
+WARN	2022-07-24 14:08:11,804	2845	RestEmployeeAPI	[main]	Response time is less than 2000
+INFO	2022-07-24 14:08:11,806	2847	RestEmployeeAPI	[main]	*********Check the status line*************
+INFO	2022-07-24 14:08:11,806	2847	RestEmployeeAPI	[main]	status line ==>HTTP/1.1 200 OK
+INFO	2022-07-24 14:08:11,808	2849	RestEmployeeAPI	[main]	*****Closing the TC001_GET_AllEmployee*******
+INFO	2022-07-24 14:08:11,813	2854	RestEmployeeAPI	[main]	***Starting getting the Single Employee data******* 
+INFO	2022-07-24 14:08:15,846	6887	RestEmployeeAPI	[main]	**Check the response body**
+INFO	2022-07-24 14:08:15,847	6888	RestEmployeeAPI	[main]	***response body**{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}1
+INFO	2022-07-24 14:08:15,848	6889	RestEmployeeAPI	[main]	**Checking the response code the 1 employee**
+INFO	2022-07-24 14:08:15,848	6889	RestEmployeeAPI	[main]	** Response Code is 200
+INFO	2022-07-24 14:08:15,849	6890	RestEmployeeAPI	[main]	***Closing the TC002_GET_Single_Employee_Data ***
+INFO	2022-07-24 14:08:21,854	12895	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 14:08:21,857	12898	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 14:08:21,858	12899	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 14:08:28,407	19448	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 14:08:28,414	19455	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 14:08:28,415	19456	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 15:20:33,716	0	RestEmployeeAPI	[main]	************Started getting All Employee details ******************
+INFO	2022-07-24 15:20:36,921	3205	RestEmployeeAPI	[main]	****check the containt type****
+INFO	2022-07-24 15:20:36,921	3205	RestEmployeeAPI	[main]	ContaintType is ==>application/json
+INFO	2022-07-24 15:20:36,927	3211	RestEmployeeAPI	[main]	***check the cookies***
+INFO	2022-07-24 15:20:36,929	3213	RestEmployeeAPI	[main]	**************Checking response Body*******************
+INFO	2022-07-24 15:20:36,948	3232	RestEmployeeAPI	[main]	response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2022-07-24 15:20:36,950	3234	RestEmployeeAPI	[main]	*******Check the response code*****
+INFO	2022-07-24 15:20:36,950	3234	RestEmployeeAPI	[main]	response code==>200
+INFO	2022-07-24 15:20:36,952	3236	RestEmployeeAPI	[main]	****Check the response time taken ****
+INFO	2022-07-24 15:20:36,953	3237	RestEmployeeAPI	[main]	response Time==> 1676
+WARN	2022-07-24 15:20:36,953	3237	RestEmployeeAPI	[main]	Response time is less than 2000
+INFO	2022-07-24 15:20:36,955	3239	RestEmployeeAPI	[main]	*********Check the status line*************
+INFO	2022-07-24 15:20:36,955	3239	RestEmployeeAPI	[main]	status line ==>HTTP/1.1 200 OK
+INFO	2022-07-24 15:20:36,957	3241	RestEmployeeAPI	[main]	*****Closing the TC001_GET_AllEmployee*******
+INFO	2022-07-24 15:20:36,961	3245	RestEmployeeAPI	[main]	***Starting getting the Single Employee data******* 
+INFO	2022-07-24 15:20:41,160	7444	RestEmployeeAPI	[main]	**Check the response body**
+INFO	2022-07-24 15:20:41,167	7451	RestEmployeeAPI	[main]	***response body**<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+1
+INFO	2022-07-24 15:20:41,170	7454	RestEmployeeAPI	[main]	**Checking the response code the 1 employee**
+INFO	2022-07-24 15:20:41,170	7454	RestEmployeeAPI	[main]	** Response Code is 429
+INFO	2022-07-24 15:20:41,173	7457	RestEmployeeAPI	[main]	***Closing the TC002_GET_Single_Employee_Data ***
+INFO	2022-07-24 15:20:47,189	13473	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 15:20:47,193	13477	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 15:20:47,195	13479	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 15:27:29,316	0	RestEmployeeAPI	[main]	************Started getting All Employee details ******************
+INFO	2022-07-24 15:27:32,874	3558	RestEmployeeAPI	[main]	****check the containt type****
+INFO	2022-07-24 15:27:32,875	3559	RestEmployeeAPI	[main]	ContaintType is ==>application/json
+INFO	2022-07-24 15:27:32,882	3566	RestEmployeeAPI	[main]	***check the cookies***
+INFO	2022-07-24 15:27:32,885	3569	RestEmployeeAPI	[main]	**************Checking response Body*******************
+INFO	2022-07-24 15:27:32,905	3589	RestEmployeeAPI	[main]	response Body==>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+INFO	2022-07-24 15:27:32,909	3593	RestEmployeeAPI	[main]	*******Check the response code*****
+INFO	2022-07-24 15:27:32,909	3593	RestEmployeeAPI	[main]	response code==>200
+INFO	2022-07-24 15:27:32,911	3595	RestEmployeeAPI	[main]	****Check the response time taken ****
+INFO	2022-07-24 15:27:32,913	3597	RestEmployeeAPI	[main]	response Time==> 1842
+WARN	2022-07-24 15:27:32,913	3597	RestEmployeeAPI	[main]	Response time is less than 2000
+INFO	2022-07-24 15:27:32,916	3600	RestEmployeeAPI	[main]	*********Check the status line*************
+INFO	2022-07-24 15:27:32,917	3601	RestEmployeeAPI	[main]	status line ==>HTTP/1.1 200 OK
+INFO	2022-07-24 15:27:32,919	3603	RestEmployeeAPI	[main]	*****Closing the TC001_GET_AllEmployee*******
+INFO	2022-07-24 15:27:32,924	3608	RestEmployeeAPI	[main]	***Starting getting the Single Employee data******* 
+INFO	2022-07-24 15:27:37,116	7800	RestEmployeeAPI	[main]	**Check the response body**
+INFO	2022-07-24 15:27:37,116	7800	RestEmployeeAPI	[main]	***response body**{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}1
+INFO	2022-07-24 15:27:37,118	7802	RestEmployeeAPI	[main]	**Checking the response code the 1 employee**
+INFO	2022-07-24 15:27:37,118	7802	RestEmployeeAPI	[main]	** Response Code is 200
+INFO	2022-07-24 15:27:37,119	7803	RestEmployeeAPI	[main]	***Closing the TC002_GET_Single_Employee_Data ***
+INFO	2022-07-24 15:27:43,196	13880	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 15:27:43,200	13884	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 15:27:43,201	13885	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 15:27:49,947	20631	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 15:27:49,953	20637	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 15:27:49,955	20639	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 15:28:39,184	0	RestEmployeeAPI	[main]	************Started getting All Employee details ******************
+INFO	2022-07-24 15:28:42,249	3065	RestEmployeeAPI	[main]	****check the containt type****
+INFO	2022-07-24 15:28:42,249	3065	RestEmployeeAPI	[main]	ContaintType is ==>text/html; charset=UTF-8
+INFO	2022-07-24 15:28:42,255	3071	RestEmployeeAPI	[main]	***check the cookies***
+INFO	2022-07-24 15:28:42,258	3074	RestEmployeeAPI	[main]	**************Checking response Body*******************
+INFO	2022-07-24 15:28:42,279	3095	RestEmployeeAPI	[main]	response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2022-07-24 15:28:42,282	3098	RestEmployeeAPI	[main]	*******Check the response code*****
+INFO	2022-07-24 15:28:42,282	3098	RestEmployeeAPI	[main]	response code==>429
+INFO	2022-07-24 15:28:42,287	3103	RestEmployeeAPI	[main]	****Check the response time taken ****
+INFO	2022-07-24 15:28:42,289	3105	RestEmployeeAPI	[main]	response Time==> 1566
+WARN	2022-07-24 15:28:42,289	3105	RestEmployeeAPI	[main]	Response time is less than 2000
+INFO	2022-07-24 15:28:42,290	3106	RestEmployeeAPI	[main]	*********Check the status line*************
+INFO	2022-07-24 15:28:42,291	3107	RestEmployeeAPI	[main]	status line ==>HTTP/1.1 429 Too Many Requests
+INFO	2022-07-24 15:28:42,293	3109	RestEmployeeAPI	[main]	*****Closing the TC001_GET_AllEmployee*******
+INFO	2022-07-24 15:28:42,299	3115	RestEmployeeAPI	[main]	***Starting getting the Single Employee data******* 
+INFO	2022-07-24 15:28:46,421	7237	RestEmployeeAPI	[main]	**Check the response body**
+INFO	2022-07-24 15:28:46,422	7238	RestEmployeeAPI	[main]	***response body**{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}1
+INFO	2022-07-24 15:28:46,424	7240	RestEmployeeAPI	[main]	**Checking the response code the 1 employee**
+INFO	2022-07-24 15:28:46,424	7240	RestEmployeeAPI	[main]	** Response Code is 200
+INFO	2022-07-24 15:28:46,425	7241	RestEmployeeAPI	[main]	***Closing the TC002_GET_Single_Employee_Data ***
+INFO	2022-07-24 15:28:52,407	13223	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 15:28:52,410	13226	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 15:28:52,412	13228	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 15:28:59,177	19993	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 15:28:59,180	19996	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 15:28:59,182	19998	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 16:59:12,890	0	RestEmployeeAPI	[main]	************Started getting All Employee details ******************
+INFO	2022-07-24 16:59:15,681	2791	RestEmployeeAPI	[main]	****check the containt type****
+INFO	2022-07-24 16:59:15,682	2792	RestEmployeeAPI	[main]	ContaintType is ==>text/html; charset=UTF-8
+INFO	2022-07-24 16:59:15,688	2798	RestEmployeeAPI	[main]	***check the cookies***
+INFO	2022-07-24 16:59:15,689	2799	RestEmployeeAPI	[main]	**************Checking response Body*******************
+INFO	2022-07-24 16:59:15,707	2817	RestEmployeeAPI	[main]	response Body==><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+INFO	2022-07-24 16:59:15,709	2819	RestEmployeeAPI	[main]	*******Check the response code*****
+INFO	2022-07-24 16:59:15,709	2819	RestEmployeeAPI	[main]	response code==>429
+INFO	2022-07-24 16:59:15,711	2821	RestEmployeeAPI	[main]	****Check the response time taken ****
+INFO	2022-07-24 16:59:15,712	2822	RestEmployeeAPI	[main]	response Time==> 1645
+WARN	2022-07-24 16:59:15,712	2822	RestEmployeeAPI	[main]	Response time is less than 2000
+INFO	2022-07-24 16:59:15,714	2824	RestEmployeeAPI	[main]	*********Check the status line*************
+INFO	2022-07-24 16:59:15,714	2824	RestEmployeeAPI	[main]	status line ==>HTTP/1.1 429 Too Many Requests
+INFO	2022-07-24 16:59:15,715	2825	RestEmployeeAPI	[main]	*****Closing the TC001_GET_AllEmployee*******
+INFO	2022-07-24 16:59:15,718	2828	RestEmployeeAPI	[main]	***Starting getting the Single Employee data******* 
+INFO	2022-07-24 16:59:19,728	6838	RestEmployeeAPI	[main]	**Check the response body**
+INFO	2022-07-24 16:59:19,729	6839	RestEmployeeAPI	[main]	***response body**<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+1
+INFO	2022-07-24 16:59:19,732	6842	RestEmployeeAPI	[main]	**Checking the response code the 1 employee**
+INFO	2022-07-24 16:59:19,732	6842	RestEmployeeAPI	[main]	** Response Code is 429
+INFO	2022-07-24 16:59:19,733	6843	RestEmployeeAPI	[main]	***Closing the TC002_GET_Single_Employee_Data ***
+INFO	2022-07-24 16:59:25,803	12913	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 16:59:25,808	12918	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 16:59:25,809	12919	RestEmployeeAPI	[main]	***Employee creation is done**
+INFO	2022-07-24 16:59:32,206	19316	RestEmployeeAPI	[main]	** Check response body is started***
+INFO	2022-07-24 16:59:32,210	19320	RestEmployeeAPI	[main]	**Check the response status code**
+INFO	2022-07-24 16:59:32,211	19321	RestEmployeeAPI	[main]	***Employee creation is done**

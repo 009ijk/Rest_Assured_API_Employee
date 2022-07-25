@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [restassuredsuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="restassuredtests(failed)">
+    <classes>
+      <class name="com.restassuredautomation.testcases.TC001_GET_AllEmployee">
+        <methods>
+          <include name="getStatusLine"/>
+          <include name="checkResponseCode"/>
+          <include name="tearDown"/>
+          <include name="getAllEmployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.restassuredautomation.testcases.TC001_GET_AllEmployee -->
+      <class name="com.restassuredautomation.testcases.TC005_DELETE_Employee">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseBody"/>
+          <include name="setup"/>
+          <include name="deleteEmployee"/>
+        </methods>
+      </class> <!-- com.restassuredautomation.testcases.TC005_DELETE_Employee -->
+      <class name="com.restassuredautomation.testcases.TC002_GET_Single_Employee_Data">
+        <methods>
+          <include name="checkResponseCode"/>
+          <include name="tearDown"/>
+          <include name="getSingleEmployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.restassuredautomation.testcases.TC002_GET_Single_Employee_Data -->
+      <class name="com.restassuredautomation.testcases.TC003_POST_Create_Employee">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="createEmployee"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.restassuredautomation.testcases.TC003_POST_Create_Employee -->
+      <class name="com.restassuredautomation.testcases.TC004_PUT_UpdateEmployee">
+        <methods>
+          <include name="createEmployee"/>
+          <include name="tearDown"/>
+          <include name="checkResponseBody"/>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.restassuredautomation.testcases.TC004_PUT_UpdateEmployee -->
+    </classes>
+  </test> <!-- restassuredtests(failed) -->
+</suite> <!-- Failed suite [restassuredsuites] -->
