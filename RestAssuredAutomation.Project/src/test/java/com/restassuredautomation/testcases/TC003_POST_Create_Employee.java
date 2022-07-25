@@ -22,6 +22,8 @@ public class TC003_POST_Create_Employee extends TestBase {
 	@BeforeClass
 	void createEmployee() throws InterruptedException
 	{
+		
+		logger.info("******Will show the all the employee*****");
 		RestAssured.baseURI="https://dummy.restapiexample.com/api/v1";
 		httpsRequest=RestAssured.given();
 		

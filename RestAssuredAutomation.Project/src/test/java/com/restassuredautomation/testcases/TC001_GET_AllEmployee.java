@@ -19,7 +19,7 @@ public class TC001_GET_AllEmployee extends TestBase {
 	void getAllEmployee() throws InterruptedException
 	
 	{
-		logger.info("************Started getting All Employee details ******************");
+		logger.info("************Show getting All Employee details ******************");
 		RestAssured.baseURI= "https://dummy.restapiexample.com/api/v1";
 		httpsRequest= RestAssured.given();
 		response =  httpsRequest.request(Method.GET, "/employees");
